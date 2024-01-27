@@ -95,8 +95,7 @@ gast==0.4.0
 gdown==4.4.0
 gensim==4.3.1
 ghp-import==2.1.0
-gitdb==4.0.10
-GitPython==3.1.31
+
 python-magic-bin==0.4.14
 python-multipart==0.0.6
 python-ptrace==0.9.8
