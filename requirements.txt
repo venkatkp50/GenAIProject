@@ -227,7 +227,6 @@ pycparser==2.21
 pydantic==1.10.7
 pydeck==0.8.1b0
 pydoc-markdown==4.6.4
-Pygments==2.15.1
 python-magic-bin==0.4.14
 python-multipart==0.0.6
 python-ptrace==0.9.8
