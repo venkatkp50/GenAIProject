@@ -76,10 +76,7 @@ elasticsearch==7.17.9
 entrypoints==0.4
 Events==0.4
 exceptiongroup==1.1.1
-executing==1.2.0
-
 farm-haystack @ git+https://github.com/deepset-ai/haystack.git@5b2ef2afd6fc8bd14b5e8f760faa40526d139bee
-
 python-magic-bin==0.4.14
 python-multipart==0.0.6
 python-ptrace==0.9.8
