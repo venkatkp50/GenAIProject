@@ -236,7 +236,6 @@ PyMuPDF==1.22.2
 pyparsing==3.0.9
 pyproject_api==1.5.1
 pyreadline3==3.4.1
-pyrsistent==0.19.3
 python-magic-bin==0.4.14
 python-multipart==0.0.6
 python-ptrace==0.9.8
