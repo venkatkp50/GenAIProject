@@ -77,7 +77,7 @@ entrypoints==0.4
 Events==0.4
 exceptiongroup==1.1.1
 executing==1.2.0
-faiss-cpu==1.7.2
+
 farm-haystack @ git+https://github.com/deepset-ai/haystack.git@5b2ef2afd6fc8bd14b5e8f760faa40526d139bee
 
 python-magic-bin==0.4.14
