@@ -107,7 +107,6 @@ gpustat==1.1
 greenlet==2.0.2
 grpcio>=1.37.1
 
-grpcio-tools==1.37.1
 h11==0.14.0
 h5py==3.8.0
 haystack==0.42
