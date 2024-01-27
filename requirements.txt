@@ -113,11 +113,7 @@ haystack==0.42
 huggingface-hub==0.14.1
 humanfriendly==10.0
 hyperopt==0.2.7
-identify==2.5.24
-idna==3.4
-image==1.5.33
-importlib-metadata==6.6.0
-importlib-resources==5.12.0
+
 python-magic-bin==0.4.14
 python-multipart==0.0.6
 python-ptrace==0.9.8
