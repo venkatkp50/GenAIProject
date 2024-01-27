@@ -7,7 +7,7 @@ from supportDef import highlightText
 from sentTrans import bert_model
 from datetime import date
 from keyWord import getKeyWords
-from plots import getPlot
+# from plots import getPlot
 import seaborn as sns
 import matplotlib.pyplot as plt
 
