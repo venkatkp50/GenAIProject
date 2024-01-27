@@ -111,7 +111,6 @@ h11==0.14.0
 h5py==3.8.0
 haystack==0.42
 huggingface-hub==0.14.1
-humanfriendly==10.0
 python-magic-bin==0.4.14
 python-multipart==0.0.6
 python-ptrace==0.9.8
