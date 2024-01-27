@@ -306,9 +306,7 @@ summarizer==0.0.7
 sympy==1.11.1
 tabulate==0.9.0
 tenacity==8.2.2
-tensorboard==2.9.1
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
+
 
 tensorflow==2.9.1
 tensorflow-estimator==2.9.0
