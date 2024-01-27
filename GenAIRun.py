@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(layout='wide')
 label_dict = {'General': 0, 'Bookmarks & History': 1, 'Untriaged': 2, 'Tabbed Browser': 3, 'Developer Tools': 4, 'Toolbars and Customization': 5, 'Preferences': 6, 'Location Bar': 7, 'Menus': 8, 'Theme': 9, 'Shell Integration': 10, 'File Handling': 11, 'Installer': 12, 'Extension Compatibility': 13, 'Session Restore': 14, 'Security': 15, 'Search': 16, 'Panorama': 17, 'Build Config': 18, 'Keyboard Navigation': 19, 'Private Browsing': 20, 'SocialAPI': 21, 'Disability Access': 22, 'Phishing Protection': 23, 'RSS Discovery and Preview': 24, 'PDF Viewer': 25, 'Migration': 26, 'Page Info Window': 27, 'Downloads Panel': 28, 'Help Documentation': 29, 'Web Apps': 30, 'Microsummaries': 31, 'Webapp Runtime': 32, 'SocialAPI: Providers': 33, 'Shumway': 34, 'WinQual Reports': 35}
-st.image('images\Banner2.png')
+st.image('images/Banner2.png')
 
 df1 = pd.read_csv('mozilla_firefox1.csv')
 df21 = pd.read_csv('mozilla_firefox23.csv')
