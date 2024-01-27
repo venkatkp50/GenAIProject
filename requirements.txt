@@ -195,13 +195,6 @@ opt-einsum==3.3.0
 outcome==1.2.0
 packaging==23.1
 pandas==2.0.1
-pandocfilters==1.5.0
-parso==0.8.3
-pathspec==0.11.1
-pathy==0.10.1
-pdf2image==1.16.3
-pefile==2023.2.7
-pickleshare==0.7.5
 python-magic-bin==0.4.14
 python-multipart==0.0.6
 python-ptrace==0.9.8
