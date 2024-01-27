@@ -72,10 +72,6 @@ docopt==0.6.2
 docspec==2.1.2
 docspec-python==2.1.2
 docstring-parser==0.11
-elasticsearch==7.17.9
-entrypoints==0.4
-Events==0.4
-exceptiongroup==1.1.1
 farm-haystack @ git+https://github.com/deepset-ai/haystack.git@5b2ef2afd6fc8bd14b5e8f760faa40526d139bee
 python-magic-bin==0.4.14
 python-multipart==0.0.6
