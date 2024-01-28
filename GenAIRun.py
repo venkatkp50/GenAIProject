@@ -67,6 +67,7 @@ if st.button('Predict Business Service Group'):
     df['Component_new'] = df['Component'].replace(['Developer Tools', 'Developer Tools: Console','Developer Tools: Inspector','Developer Tools: Graphic Commandline and Toolbar','Developer Tools: Scratchpad', 'Developer Tools: Netmonitor','Developer Tools: Source Editor', 'Developer Tools: Debugger','Developer Tools: Style Editor', 'Developer Tools: Framework','Developer Tools: 3D View', 'Developer Tools: Object Inspector','Developer Tools: Responsive Mode', 'Developer Tools: Profiler','Developer Tools: App Manager','Developer Tools: WebGL Shader Editor', 'Developer Tools: Memory'], 'Developer Tools')
     df['int_label'] = df['Component_new'].apply(getLabelVal)
     df = df.dropna(subset=['Description'])
+    st.dataframe(df.head(4))
     df = df[((df['int_label']==predicted_pickle[0]) & (df['Status']=='RESOLVED') & (df['Resolution']!='INCOMPLETE') & (df['Resolution'] !='DUPLICATE') & ((pd.to_datetime(max_date,utc=True) - pd.to_datetime(df['Resolved_time'],utc=True,infer_datetime_format=True)).dt.days < 600) )]
     
     st.divider()
