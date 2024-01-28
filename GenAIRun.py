@@ -71,7 +71,7 @@ if st.button('Predict Business Service Group'):
     df['Issue ID'] = df['Issue ID'].astype(str)
     # df = df[((df['int_label']==predicted_pickle[0]) & (df['Status']=='RESOLVED') & (df['Resolution']!='INCOMPLETE') & (df['Resolution'] !='DUPLICATE') & ((pd.to_datetime(max_date,utc=True) - pd.to_datetime(df['Resolved_time'],utc=True,infer_datetime_format=True)).dt.days < 600) )]
     df = df[((df['int_label']==predicted_pickle[0]) & (df['Status']=='RESOLVED') & (df['Resolution']!='INCOMPLETE') & (df['Resolution'] !='DUPLICATE'))]
-    st.dataframe(df.head(4))
+    # st.dataframe(df.head(4))
     st.divider()
 
     Sentences = df['Description'].tolist()
