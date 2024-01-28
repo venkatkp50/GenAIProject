@@ -63,7 +63,7 @@ if st.button('Predict Business Service Group'):
     st.success(pred_int_label)
     
     max_date = date(2014, 1, 31)
-    
+    print(df.head(4))
     df['Component_new'] = df['Component'].replace(['Developer Tools', 'Developer Tools: Console','Developer Tools: Inspector','Developer Tools: Graphic Commandline and Toolbar','Developer Tools: Scratchpad', 'Developer Tools: Netmonitor','Developer Tools: Source Editor', 'Developer Tools: Debugger','Developer Tools: Style Editor', 'Developer Tools: Framework','Developer Tools: 3D View', 'Developer Tools: Object Inspector','Developer Tools: Responsive Mode', 'Developer Tools: Profiler','Developer Tools: App Manager','Developer Tools: WebGL Shader Editor', 'Developer Tools: Memory'], 'Developer Tools')
     df['int_label'] = df['Component_new'].apply(getLabelVal)
     df = df.dropna(subset=['Description'])
