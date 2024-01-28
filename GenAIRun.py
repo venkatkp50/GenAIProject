@@ -16,12 +16,12 @@ label_dict = {'General': 0, 'Bookmarks & History': 1, 'Untriaged': 2, 'Tabbed Br
 st.image('images/Banner2.png')
 
 
-# df = pd.read_csv('Mozzila_Bug.csv')
-df1 = pd.read_csv('mozilla_firefox1.csv')
-df21 = pd.read_csv('mozilla_firefox23.csv')
-df22 = pd.read_csv('mozilla_firefox23.csv')
-df23 = pd.read_csv('mozilla_firefox23.csv')
-df = pd.concat([df21,df1,df22,df23])
+df = pd.read_csv('Mozzila_Bug.csv')
+# df1 = pd.read_csv('mozilla_firefox1.csv')
+# df21 = pd.read_csv('mozilla_firefox23.csv')
+# df22 = pd.read_csv('mozilla_firefox23.csv')
+# df23 = pd.read_csv('mozilla_firefox23.csv')
+# df = pd.concat([df21,df1,df22,df23])
 st.subheader('Dataset Sample')
 st.dataframe(df[['Title','Description','Component']].head(5))
 st.divider()
