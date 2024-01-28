@@ -23,7 +23,7 @@ df22 = pd.read_csv('mozilla_firefox23.csv')
 df23 = pd.read_csv('mozilla_firefox23.csv')
 df = pd.concat([df21,df1,df22,df23])
 st.subheader('Dataset Sample')
-st.dataframe(df[['Title','Description','Component']].head(5))
+# st.dataframe(df[['Title','Description','Component']].head(5))
 st.divider()
 
 with st.sidebar:
